@@ -1,12 +1,5 @@
 .navbar {
   position: fixed;
-  height: 70px;
-  width: 1440px;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 45px;
   background-color: #8096D9;
 }
 
@@ -16,12 +9,102 @@
   text-decoration: none;
 }
 
-.navbar > h3 > a:visited {
-  color: #FFF;
+.navbar > h3:nth-child(5) > a {
+  background-color: #F0743E;
 }
 
-.navbar > h3:nth-child(5) {
-  background-color: #F0743E;
-  padding: 8px;
-  border-radius: 4px;
+/* MOBILE */
+@media (max-width: 1200px) {
+  .navbar {
+    width: 300px;
+    height: 100%;
+    margin-right: -300px;
+    padding-top: 70px;
+    align-self: flex-end;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+  }
+
+  .navbar > h3 {
+    margin: 0;
+  }
+
+  .navbar > h3 > a {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+
+  .navbarActive {
+    margin-right: 0px;
+  }
+
+  .navbarButton {
+    position: fixed;
+    cursor: pointer;
+    align-self: flex-end;
+    background-color: #8096D9;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+  }
+
+  .navbarButton > i {
+    font-size: 60px;
+  }
+
+  .navbarButtonActive {
+    background-color: #8096D9;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1201px) {
+
+  .navbar {
+    height: 70px;
+    width: 100%;
+    max-width: 1440px;
+    top: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: calc(45px - 16px);
+  }
+  
+  .navbar > h3 > a {
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .navbar > h3 > a:hover {
+    background-color: #F0743E;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+  }
+
+  .navbar > h3 > a:active {
+    background-color: #c76034;
+  }
+  
+  .navbar > h3:nth-child(5) > a:hover {
+    background-color: #F0743E;
+  }
+  
+  .navbar > h3:nth-child(5) > a:active {
+    background-color: #c76034; 
+  }
+  
+  .navbar > h3 > a:visited {
+    color: #FFF;
+  }
+
+
+  .navbarButton {
+    display: none;
+  }
 }
