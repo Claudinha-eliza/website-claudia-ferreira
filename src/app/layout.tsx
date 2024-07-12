@@ -7,6 +7,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <title>Cláudia Ferreira - psicóloga I psicanalista</title>
+      </head>
       <body>{children}</body>
     </html>
   );
