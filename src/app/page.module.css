@@ -4,31 +4,3 @@
   max-width: 1440px;
   background-color: #FDF0DC;
 }
-
-.navbar {
-  position: fixed;
-  height: 70px;
-  width: 1440px;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 45px;
-  background-color: #8096D9;
-}
-
-.navbar > h3 > a {
-  color: #FFF;
-  font-family: 'Outfit', sans-serif;
-  text-decoration: none;
-}
-
-.navbar > h3 > a:visited {
-  color: #FFF;
-}
-
-.navbar > h3:nth-child(5) {
-  background-color: #F0743E;
-  padding: 8px;
-  border-radius: 4px;
-}
