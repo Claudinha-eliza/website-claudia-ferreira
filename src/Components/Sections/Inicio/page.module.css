@@ -1,0 +1,154 @@
+.inicio {
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo > img {
+  height: auto;
+  width: fit-content;
+  padding-top: 90px;
+  max-width: 600px;
+  object-fit: contain;
+}
+
+.dados {
+  margin: -10px;
+}
+
+.dados > h2 {
+  margin: 0;
+  padding-top: 15px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: #AEB2B2;
+  text-align: center;
+}
+
+.dados > h3 {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: #AEB2B2;
+  text-align: center;
+}
+
+.logoDecoracao > img {
+  position: absolute;
+  z-index: 2;
+  width: fit-content;
+  object-fit: contain;
+  width: 425;
+  height: 425;
+  top: 100px;
+  left: -300px;
+}
+
+.quoteText {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  max-lines: 3;
+  max-width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 90px;
+  color: #2A2F33;
+}
+
+.quoteAuthor {
+  margin: -10px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  text-align: right;
+  max-width: 800px;
+  padding-right: 110px;
+  padding-bottom: 90px;
+  color: #AEB2B2;
+}
+
+@media (max-width: 1200px) {
+
+  .inicio {
+    padding-top: 0px;
+  }
+
+  .quoteText {
+    font-size: 64px;
+    line-height: 75px;
+  }
+
+  .quoteAuthor {
+    margin: 0;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .logo > img {
+    max-width: 90%;
+  }
+
+  .dados {
+    margin: 0px;
+  }  
+
+  .logoDecoracao > img {
+    position: static;
+    object-fit: cover;
+    padding-top: 20px;
+    height: 80px;
+    width: 300px;
+  }
+
+  .quoteText {
+    padding-top: 20px;
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .quoteAuthor {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .quoteText {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .quoteAuthor {
+    padding-right: 45px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .logoDecoracao > img {
+    width: 200px;
+  }
+
+  .quoteText {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .quoteAuthor {
+    margin: 0;
+    padding-right: 40px;
+  }
+}

@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+  z-index: 8;
   background-color: #8096D9;
 }
 
@@ -45,6 +46,8 @@
   .navbarButton {
     position: fixed;
     cursor: pointer;
+    z-index: 9;
+    right: 0;
     align-self: flex-end;
     background-color: #8096D9;
     border-bottom-left-radius: 10px;
