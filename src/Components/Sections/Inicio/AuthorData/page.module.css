@@ -1,19 +1,22 @@
 .authorData {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .logo {
-  height: auto;
-  width: fit-content;
   padding-top: 90px;
-  max-width: 600px;
   object-fit: contain;
 }
 
-.authorData > h2 {
+.authorCareer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authorCareer > h2 {
   margin: 0;
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
@@ -21,7 +24,7 @@
   text-align: center;
 }
 
-.authorData > h3 {
+.authorCareer > h3 {
   margin: 0;
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
@@ -36,23 +39,35 @@
   object-fit: contain;
   width: 425px;
   bottom: 0px;
-  left: -45%;
+  left: -440px;
   bottom: -20px;
   object-fit: contain;
+}
+
+@media (max-width: 1050px) {
+  .logo {
+    height: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    height: 170px;
+  }
 }
 
 @media (max-width: 750px) {
 
   .logo {
-    max-width: 500px;
+    height: 148px;
   }
 
-  .authorData > h2 {
+  .authorCareer > h2 {
     margin: 0px;
     font-size: 1.17em;
   }
 
-  .authorData > h3 {
+  .authorCareer > h3 {
     font-size: 1em;
   } 
 
@@ -67,7 +82,7 @@
 @media (max-width: 600px) {
 
   .logo {
-    max-width: 400px;
+    height: 120px;
   }
 
   .decoration1 {
@@ -78,7 +93,7 @@
 @media (max-width: 450px) {
 
   .logo {
-    max-width: 250px;
+    height: 80px;
   }
 
   .decoration1 {
@@ -89,7 +104,7 @@
 @media (max-width: 300px) {
 
   .logo {
-    max-width: 200px;
+    height: 60px;
   }
 
   .decoration1 {
