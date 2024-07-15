@@ -7,18 +7,180 @@
   align-items: center;
 }
 
+.content {
+  position: relative;
+  z-index: 5;
+}
+
+.decoration2 {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  height: 456px;
+  width: 265px;
+  left: 0;
+  object-fit: cover;
+  object-position: right;
+}
+
+.decoration3 {
+  position: absolute;
+  z-index: 1;
+  height: 323px;
+  width: 185px;
+  left: 0;
+  bottom: 20px;
+  object-fit: cover;
+  object-position: right top;
+}
+
+.decoration4 {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 50px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.decoration5 {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 44px;
+  object-fit: cover;
+  object-position: left;
+  width: 200px;
+}
+
 @media (max-width: 1200px) {
 
   .section {
     padding-top: 0px;
   }
+
+  .decoration2 {
+    top: 0px;
+    height: 380px;
+    width: 225px;
+  }
+
+  .decoration4 {
+    top: 0px;
+    object-position: left bottom;
+    height: 230px;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .decoration2 {
+    height: 350px;
+    width: 210px;
+  }
+
+  .decoration3 {
+    height: 323px;
+    width: 125px;
+  }
+
+  .decoration4 {
+    height: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .decoration2 {
+    height: 320px;
+    width: 175px;
+    opacity: 0.3;
+  }
+
+  .decoration3 {
+    height: 323px;
+    width: 125px;
+    opacity: 0.15;
+  }
+
+  .decoration4 {
+    opacity: 0.15;
+    height: 500px;
+  }
+
+  .decoration5 {
+    width: 190px;
+  }
 }
 
 @media (max-width: 750px) {
+
+  .decoration2 {
+    height: 290px;
+    width: 190px;
+    opacity: 0.15;
+  }
+
+  .decoration3 {
+    height: 310px;
+    width: 160px;
+  }
+
+  .decoration4 {
+    width: 250px;
+  }
+
+  .decoration5 {
+    height: 60px;
+    width: 130px;
+    bottom: 10px;
+  }
 }
 
 @media (max-width: 600px) {
+
+  .decoration4 {
+    width: 150px;
+  }
+
+  .decoration5 {
+    height: 40px;
+    width: 125px;
+  }
 }
 
 @media (max-width: 450px) {
+
+  .decoration2 {
+    width: 130px;
+  }
+
+  .decoration3 {
+    height: 240px;
+    width: 120px;
+  }
+  
+  .decoration4 {
+    width: 120px;
+  }
+
+  .decoration5 {
+    height: 30px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .decoration2 {
+    width: 100px;
+  }
+
+  .decoration3 {
+    width: 100px;
+  }
+
+  .decoration4 {
+    width: 90px;
+  }
 }
