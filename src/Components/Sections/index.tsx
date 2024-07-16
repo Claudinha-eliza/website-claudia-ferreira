@@ -1,5 +1,7 @@
+import { UmPouquinhoSobreMim } from "./UmPouquinhoSobreMim";
 import { Inicio } from "./Inicio";
 
 export const Sections = {
-  Inicio: Inicio
+  Inicio: Inicio,
+  UmPouquinhoSobreMim: UmPouquinhoSobreMim,
 }
