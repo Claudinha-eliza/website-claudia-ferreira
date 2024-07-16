@@ -13,13 +13,6 @@ export function UmPouquinhoSobreMim() {
         alt="foto da Claudia"
         className={styles.authorPhoto}
       />
-      <Image
-        src="/decoration6.png"
-        width={456}
-        height={101}
-        alt="decoração de fundo 6"
-        className={styles.decoration6}
-      />
     </section>
   )
 }

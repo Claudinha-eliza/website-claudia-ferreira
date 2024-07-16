@@ -1,10 +1,20 @@
+import Image from 'next/image'
 import styles from "./page.module.css";
 
 export function AboutMe() {
   return (
-    <div className={styles.aboutMe}>
-      <h1 className={styles.aboutMeTitle}>Um pouquinho sobre mim</h1>
-      <div className={styles.aboutMeText}>
+    <div>
+      <div className={styles.title}>
+        <h1 className={styles.titleText}>Um pouquinho sobre mim</h1>
+        <Image
+          src="/decoration6.png"
+          width={456}
+          height={101}
+          alt="decoração de fundo 6"
+          className={styles.decoration6}
+        />
+      </div>
+      <div className={styles.text}>
         <p>
           Olá! Meu nome é Claudia Eliza Ferreira dos Santos, sou graduada em Psicologia pela UFMG (CRP 04/42649), com ênfase em processos clínicos; pós-graduada em Psicanálise com crianças e adolescentes pela PUC Minas e intitulada Especialista em Psicologia Social pelo Conselho Federal de Psicologia.
         </p>

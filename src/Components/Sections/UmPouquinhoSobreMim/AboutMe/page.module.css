@@ -1,4 +1,8 @@
-.aboutMeTitle {
+.title {
+  position: relative;
+}
+
+.titleText {
   margin: 0px;
   font-family: 'Outfit', sans-serif;
   font-size: 48px;
@@ -9,7 +13,7 @@
   color: #2A2F33;
 }
 
-.aboutMeText {
+.text {
   margin: 0px;
   font-family: "Baskervville", serif;
   font-weight: 400;
@@ -21,68 +25,94 @@
   color: #2A2F33;
 }
 
-.aboutMeText > p {
+.text > p {
   margin: 0px;
   padding-bottom: 35px;
 }
 
+.decoration6 {
+  position: absolute;
+  object-fit: cover;
+  object-position: right;
+  width: 313px;
+  bottom: 60px;
+  left: 0;
+}
 
 @media (max-width: 1400px) {
 
-  .aboutMeTitle {
+  .titleText {
     padding-left: 90px;
   }
   
-  .aboutMeText {
+  .text {
     padding-left: 90px;
   }
 
   
-  .aboutMeText > p {
+  .text > p {
     padding-bottom: 30px;
+  }
+
+  .decoration6 {
+    width: 288px;
   }
 }
 
 @media (max-width: 1300px) {
 
-  .aboutMeTitle {
+  .titleText {
     padding-left: 40px;
   }
   
-  .aboutMeText {
+  .text {
     padding-left: 40px;
   }
 
-  .aboutMeText > p {
+  .text > p {
     padding-bottom: 20px;
+  }
+  
+  .decoration6 {
+    width: 238px;
   }
 }
 
 @media (max-width: 1200px) {
 
-  .aboutMeTitle {
+  .titleText {
     padding-bottom: 40px;
     padding-right: 40px;
   }
 
-  .aboutMeText {
+  .text {
     padding-right: 40px;
+  }
+
+  .decoration6 {
+    width: 238px;
+    bottom: 10px;
   }
 }
 
 @media (max-width: 750px) {
 
-  .aboutMeTitle {
+  .titleText {
     font-size: 2em;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .aboutMeText {
+  .text {
     padding-right: 40px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .decoration6 {
+    width: 218px;
+    bottom: 20px;
   }
 }

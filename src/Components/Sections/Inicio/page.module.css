@@ -53,6 +53,12 @@
   width: 200px;
 }
 
+@media (max-width: 1300px) {
+  .decoration4 {
+    width: 220px;
+  }
+}
+
 @media (max-width: 1200px) {
 
   .section {
@@ -76,12 +82,12 @@
 
   .decoration2 {
     height: 350px;
-    width: 210px;
+    width: 200px;
   }
 
   .decoration3 {
     height: 323px;
-    width: 125px;
+    width: 110px;
   }
 
   .decoration4 {
@@ -105,7 +111,7 @@
 
   .decoration4 {
     opacity: 0.15;
-    height: 500px;
+    height: 350px;
   }
 
   .decoration5 {
@@ -140,6 +146,7 @@
 @media (max-width: 600px) {
 
   .decoration4 {
+    height: 300px;
     width: 150px;
   }
 
@@ -161,6 +168,7 @@
   }
   
   .decoration4 {
+    height: 250px;
     width: 120px;
   }
 
