@@ -7,8 +7,9 @@
 .authorPhoto {
   min-width: 50%;
   height: auto;
+  padding-bottom: 77px;
   object-fit: contain;
-  object-position: center;
+  object-position: center left;
 }
 
 @media (max-width: 1200px) {
@@ -37,5 +38,12 @@
     padding-right: 0px;
     object-fit: contain;
     object-position: top;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .authorPhoto {
+    padding-bottom: 0px;
   }
 }

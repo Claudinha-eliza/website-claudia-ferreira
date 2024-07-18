@@ -1,0 +1,116 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card1 {
+  align-self: flex-start;
+  background-color: #F0743E1A;
+  border-color: #F0743E;
+  margin-left: 115px;
+}
+
+.card2 {
+  align-self: flex-end;
+  background-color: #AAD59F1A;
+  border-color: #AAD59F;
+  margin-right: 270px;
+}
+
+.card3 {
+  align-self: flex-start;
+  background-color: #9AB2D41A;
+  border-color: #9AB2D4;
+  margin-left: 204px;
+}
+
+.card4 {
+  align-self: flex-end;
+  background-color: #FDD8491A;
+  border-color: #FDD849;
+  margin-right: 245px;
+}
+
+@media (max-width: 1400px) {
+
+  .card1 {
+    margin-left: 90px;
+  }
+  
+  .card2 {
+    margin-right: 245px;
+  }
+  
+  .card3 {
+    margin-left: 179px;
+  }
+  
+  .card4 {
+    margin-right: 220px;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  .card1 {
+    margin-left: 40px;
+  }
+  
+  .card2 {
+    margin-right: 195px;
+  }
+  
+  .card3 {
+    margin-left: 129px;
+  }
+  
+  .card4 {
+    margin-right: 170px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .card1 {
+    margin-left: 40px;
+  }
+  
+  .card2 {
+    margin-right: 65px;
+  }
+  
+  .card3 {
+    margin-left: 129px;
+  }
+  
+  .card4 {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .cards {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .card1 {
+    margin-left: 20px;
+  }
+
+  .card2 {
+    margin-right: 45px;
+  }
+
+  .card3 {
+    margin-left: 75px;
+  }
+
+  .card4 {
+    margin-right: 20px;
+  }
+}

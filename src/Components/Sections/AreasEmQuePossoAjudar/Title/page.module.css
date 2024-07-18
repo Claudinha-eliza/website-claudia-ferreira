@@ -1,0 +1,70 @@
+.title {
+  margin: 0px;
+  font-family: 'Outfit', sans-serif;
+  text-align: end;
+  font-size: 48px;
+  line-height: 36px;
+  padding-top: 80px;
+  padding-right: 115px;
+  padding-bottom: 64px;
+  color: #2A2F33;
+}
+
+.decoration7 {
+  position: absolute;
+  top:  0px;
+  right: 53px;
+  object-fit: contain;
+  object-position: right;
+}
+
+
+@media (max-width: 1400px) {
+
+  .title {
+    padding-right: 90px;
+  }
+
+  .decoration7 {
+    right: 28px;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  .title {
+    padding-right: 40px;
+  }
+
+  .decoration7 {
+    right: 28px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .title {
+    padding-top: 115px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 2em;
+  }
+
+  .decoration7 {
+    top:  70px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .title {
+    font-size: 1.17em;
+    padding-bottom: 20px;
+  }
+
+  .decoration7 {
+    width: 300px;
+  }
+}
