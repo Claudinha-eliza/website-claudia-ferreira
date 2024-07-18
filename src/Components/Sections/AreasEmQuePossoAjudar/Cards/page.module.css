@@ -89,13 +89,6 @@
   }
 }
 
-@media (max-width: 750px) {
-
-  .cards {
-    gap: 10px;
-  }
-}
-
 @media (max-width: 600px) {
 
   .card1 {
@@ -112,5 +105,28 @@
 
   .card4 {
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .cards {
+    gap: 10px;
+  }
+
+  .card1 {
+    margin-left: 10px;
+  }
+
+  .card2 {
+    margin-right: 35px;
+  }
+
+  .card3 {
+    margin-left: 65px;
+  }
+
+  .card4 {
+    margin-right: 10px;
   }
 }

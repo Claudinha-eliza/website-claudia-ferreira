@@ -120,6 +120,7 @@
 @media (max-width: 450px) {
 
   .titleText {
+    padding-top: 40px;
     font-size: 1.17em;
   }
 }

@@ -97,23 +97,11 @@
 @media (max-width: 450px) {
 
   .logo {
-    height: 80px;
-    max-width: 300px;
+    width: 90%;
+    height: auto;
   }
 
   .decoration1 {
     width: 150px;
-  }
-}
-
-@media (max-width: 300px) {
-
-  .logo {
-    height: 60px;
-    max-width: 210px;
-  }
-
-  .decoration1 {
-    width: 125px;
   }
 }

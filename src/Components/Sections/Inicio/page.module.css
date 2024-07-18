@@ -177,18 +177,3 @@
     width: 120px;
   }
 }
-
-@media (max-width: 300px) {
-
-  .decoration2 {
-    width: 100px;
-  }
-
-  .decoration3 {
-    width: 100px;
-  }
-
-  .decoration4 {
-    width: 90px;
-  }
-}
