@@ -95,6 +95,13 @@
   }
 }
 
+@media (max-width: 900px) {
+
+  .titleText {
+    padding-top: 30px;
+  }
+}
+
 @media (max-width: 750px) {
 
   .titleText {
@@ -120,7 +127,6 @@
 @media (max-width: 450px) {
 
   .titleText {
-    padding-top: 40px;
     font-size: 1.17em;
   }
 }

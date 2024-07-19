@@ -30,6 +30,8 @@
   .quoteText {
     font-size: 64px;
     line-height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .quoteAuthor {
@@ -60,7 +62,16 @@
 
   .quoteAuthor {
     padding-right: 45px;
+    padding-left: 50px;
     padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .quoteText {
+    font-size: 40px;
+    line-height: 50px;
   }
 }
 

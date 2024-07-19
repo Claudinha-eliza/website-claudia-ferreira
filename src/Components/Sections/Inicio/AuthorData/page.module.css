@@ -46,12 +46,6 @@
   object-fit: contain;
 }
 
-@media (max-width: 1050px) {
-  .logo {
-    height: 200px;
-  }
-}
-
 @media (max-width: 900px) {
   .logo {
     height: 170px;
