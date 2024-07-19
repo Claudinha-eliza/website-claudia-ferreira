@@ -21,7 +21,6 @@
   text-align: right;
   max-width: 800px;
   padding-right: 110px;
-  padding-bottom: 130px;
   color: #AEB2B2;
 }
 
@@ -49,7 +48,6 @@
 
   .quoteAuthor {
     padding-right: 50px;
-    padding-bottom: 70px;
   }
 }
 
@@ -63,7 +61,6 @@
   .quoteAuthor {
     padding-right: 45px;
     padding-left: 50px;
-    padding-bottom: 50px;
   }
 }
 
@@ -87,6 +84,5 @@
   .quoteAuthor {
     margin: 0;
     padding-right: 40px;
-    padding-bottom: 40px;
   }
 }

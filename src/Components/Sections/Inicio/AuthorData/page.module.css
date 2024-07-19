@@ -7,6 +7,10 @@
 .logo {
   padding-top: 60px;
   object-fit: contain;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .authorCareer {
@@ -44,6 +48,10 @@
   left: -440px;
   bottom: -20px;
   object-fit: contain;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 @media (max-width: 900px) {

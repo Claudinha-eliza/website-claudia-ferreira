@@ -5,14 +5,8 @@ export function AboutMe() {
   return (
     <div>
       <div className={styles.title}>
+        <Decorations />
         <h1 className={styles.titleText}>Um pouquinho sobre mim</h1>
-        <Image
-          src="/decoration6.png"
-          width={456}
-          height={101}
-          alt="decoração de fundo 6"
-          className={styles.decoration6}
-        />
       </div>
       <div className={styles.text}>
         <p>
@@ -27,4 +21,16 @@ export function AboutMe() {
       </div>
     </div>
   )
+}
+
+function Decorations() {
+  return (<>
+    <Image
+      src="/decoration6.png"
+      width={456}
+      height={101}
+      alt="decoração de fundo 6"
+      className={styles.decoration6}
+    />
+  </>)
 }

@@ -2,13 +2,17 @@
   position: relative;
   width: 100%;
   display: flex;
+  padding-bottom: 155px;
 }
 
 .authorPhoto {
-  min-width: 50%;
-  padding-bottom: 77px;
-  object-fit: contain;
-  object-position: top left;
+  min-width: 49%;
+  object-fit: cover;
+  object-position: left;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 @media (max-width: 1200px) {
@@ -40,9 +44,12 @@
 
 @media (max-width: 750px) {
 
+  .section {
+    padding-bottom: 0px;
+  }
+
   .authorPhoto {
     width: 100%;
     max-width: 100%;
-    padding-bottom: 0px;
   }
 }

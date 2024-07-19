@@ -3,6 +3,8 @@
 }
 
 .titleText {
+  position: relative;
+  z-index: 5;
   margin: 0px;
   font-family: 'Outfit', sans-serif;
   font-size: 48px;
@@ -21,7 +23,7 @@
   font-size: 18px;
   padding-left: 115px;
   padding-right: 50px;
-  line-height: 24px;
+  line-height: 23px;
   color: #2A2F33;
 }
 
@@ -32,11 +34,16 @@
 
 .decoration6 {
   position: absolute;
+  z-index: 1;
   object-fit: cover;
   object-position: right;
   width: 313px;
   bottom: 80px;
   left: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 @media (max-width: 1400px) {
