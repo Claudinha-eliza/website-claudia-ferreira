@@ -1,0 +1,41 @@
+.cards {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 45px;
+  row-gap: 74px;
+  padding-bottom: 74px;
+}
+
+.cards > *:nth-child(4) {
+  margin-right: 57px;
+}
+
+
+.card1 {
+  background-color: #F0743E1A;
+  border-color: #F0743E;
+}
+
+.card2 {
+  background-color: #AAD59F1A;
+  border-color: #AAD59F;
+}
+
+.card3 {
+  background-color: #FDD8491A;
+  border-color: #FDD849;
+}
+
+.card4 {
+  background-color: #9AB2D41A;
+  border-color: #9AB2D4;
+}
+
+.card5 {
+  background-color: #CDBCDC1A;
+  border-color: #CDBCDC;
+}

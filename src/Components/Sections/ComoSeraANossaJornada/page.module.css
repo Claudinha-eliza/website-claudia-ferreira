@@ -1,0 +1,86 @@
+.section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 180px;
+}
+
+.decoration10 {
+  position: absolute;
+  z-index: 1;
+  top: 88px;
+  left: 0;
+  width: 290px;
+  object-fit: cover;
+  object-position: right;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration11 {
+  position: absolute;
+  z-index: 1;
+  top: 130px;
+  right: 0;
+  height: 840px;
+  width: 330px;
+  opacity: 0.3;
+  object-fit: cover;
+  object-position: left;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration12 {
+  position: absolute;
+  z-index: 1;
+  top: 819px;
+  left: 4px;
+  object-fit: cover;
+  object-position: right;
+  object-fit: cover;
+  object-position: right;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration13 {
+  position: absolute;
+  z-index: 1;
+  top: 647px;
+  left: 0;
+  width: 264px;
+  object-fit: cover;
+  object-position: right;
+  opacity: 0.3;
+  object-fit: cover;
+  object-position: right;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration14 {
+  position: absolute;
+  z-index: 1;
+  top: 921px;
+  left: 0;
+  width: 448px;
+  object-fit: cover;
+  object-position: right;
+  opacity: 0.5;
+  object-fit: cover;
+  object-position: right;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

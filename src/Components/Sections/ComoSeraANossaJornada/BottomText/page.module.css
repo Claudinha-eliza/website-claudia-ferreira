@@ -1,0 +1,18 @@
+.textContainer {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text {
+  margin: 0px;
+  width: 798px;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 77px;
+  color: #2A2F33;
+}
