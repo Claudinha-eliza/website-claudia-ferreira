@@ -23,7 +23,7 @@
 .decoration11 {
   position: absolute;
   z-index: 1;
-  top: 130px;
+  top: 120px;
   right: 0;
   height: 840px;
   width: 330px;
@@ -39,7 +39,7 @@
 .decoration12 {
   position: absolute;
   z-index: 1;
-  top: 819px;
+  top: 809px;
   left: 4px;
   object-fit: cover;
   object-position: right;
@@ -54,7 +54,7 @@
 .decoration13 {
   position: absolute;
   z-index: 1;
-  top: 647px;
+  top: 637px;
   left: 0;
   width: 264px;
   object-fit: cover;
@@ -71,7 +71,7 @@
 .decoration14 {
   position: absolute;
   z-index: 1;
-  top: 921px;
+  top: 911px;
   left: 0;
   width: 448px;
   object-fit: cover;
