@@ -175,8 +175,9 @@
   }
 
   .decoration12 {
-    height: 200px;
-    width: 150px;
+    bottom: 10px;
+    height: 110px;
+    width: 80px;
   }
 
   .decoration13 {
@@ -185,7 +186,7 @@
   }
 
   .decoration14 {
-    bottom: 40px;
+    bottom: 20px;
     height: 84px;
   }
 }
