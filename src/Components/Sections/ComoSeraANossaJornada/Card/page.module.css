@@ -120,3 +120,15 @@
     width: auto;
   }
 }
+
+@media (max-width: 450px) {
+
+  .cardTitle {
+    font-size: 1.17em;
+  }
+
+  .card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
