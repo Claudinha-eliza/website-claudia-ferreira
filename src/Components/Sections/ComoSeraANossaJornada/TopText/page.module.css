@@ -36,3 +36,96 @@
 .text3 {
   padding-right: 175px;
 }
+
+@media (max-width: 1400px) {
+
+  .title {
+    padding-left: 90px;
+  }
+  
+  .text1,
+  .text2,
+  .text3 {
+    padding-left: 130px;
+  }
+}
+
+
+@media (max-width: 1300px) {
+
+  .title {
+    padding-left: 40px;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    padding-left: 70px;
+  }
+
+  .text1 {
+    /*to fix text 1 increasing line by one inside the paragraph, close to screen width transition, wich offsets some decorations */
+    padding-right: 190px;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+
+  .title {
+    padding-bottom: 70px;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .title {
+    font-size: 1.9em;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .text1 {
+    padding-right: 130px;
+  }
+
+  .text2 {
+    padding-right: 170px;
+  }
+
+  .text3 {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .text1 {
+    padding-right: 50px;
+  }
+
+  .text2 {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 1.17em;
+    padding-bottom: 20px;
+  }
+}

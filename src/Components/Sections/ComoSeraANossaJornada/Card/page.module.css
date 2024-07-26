@@ -22,6 +22,8 @@
   vertical-align: middle;
   line-height: 36px;
   font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .text {
@@ -83,5 +85,38 @@
     100% {
       opacity: 1;
     }
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .card {
+    justify-content: flex-start;
+    height: auto;
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .cardTitle {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text {
+    opacity: 1;
+    height: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+
+@media (max-width: 750px) {
+
+  .card {
+    width: auto;
   }
 }

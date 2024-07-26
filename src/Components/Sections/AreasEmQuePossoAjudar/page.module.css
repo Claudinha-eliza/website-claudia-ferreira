@@ -71,7 +71,7 @@
 @media (max-width: 900px) {
 
   .decoration9 {
-    height: 915px;
+    height: 925px;
   }
 }
 
@@ -79,27 +79,27 @@
 
   .decoration9 {
     top: 0px;
-    height: 705px;
+    height: 715px;
   }
 }
 
 @media (max-width: 500px) {
 
   .decoration9 {
-    height: 625px;
+    height: 645px;
   }
 }
 
 @media (max-width: 450px) {
 
   .decoration9 {
-    height: 540px;
+    height: 555px;
   }
 }
 
 @media (max-width: 400px) {
 
   .decoration9 {
-    height: 520px;
+    height: 540px;
   }
 }

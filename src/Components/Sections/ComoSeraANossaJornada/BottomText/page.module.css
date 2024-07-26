@@ -16,3 +16,29 @@
   padding-right: 77px;
   color: #2A2F33;
 }
+
+@media (max-width: 1200px) {
+  .text {
+    padding-left: 220px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .text {
+    padding-right: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    padding-left: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    padding-left: 20px;
+  }
+}
