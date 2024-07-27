@@ -38,21 +38,6 @@
   -ms-user-select: none;
 }
 
-@media (max-width: 1400px) {
-
-  .decoration8 {
-    width: 235px;
-  }
-
-}
-
-@media (max-width: 1300px) {
-
-  .decoration8 {
-    width: 185px;
-  }
-}
-
 @media (max-width: 1200px) {
 
   .decoration8 {
@@ -83,23 +68,9 @@
   }
 }
 
-@media (max-width: 500px) {
-
-  .decoration9 {
-    height: 645px;
-  }
-}
-
 @media (max-width: 450px) {
 
   .decoration9 {
-    height: 555px;
-  }
-}
-
-@media (max-width: 400px) {
-
-  .decoration9 {
-    height: 540px;
+    height: 560px;
   }
 }

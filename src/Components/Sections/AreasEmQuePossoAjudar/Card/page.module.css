@@ -1,5 +1,5 @@
 .card {
-  width: 540px;
+  width: 37.5%;
   border-radius: 32px;
   background-color: #0000FF1A;
   padding-top: 30px;
@@ -22,13 +22,17 @@
   font-weight: 600;
 }
 
+@media (max-width: 1200px) {
+  .card {
+    width: 43%;
+  }
+}
 
 @media (max-width: 900px) {
 
   .card {
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 400px;
   }
 
   .cardTitle {
@@ -39,29 +43,14 @@
 @media (max-width: 750px) {
 
   .card {
+    width: 47%;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 300px;
     border-radius: 28px;
   }
 
   .cardTitle {
     font-size: 1.17em;
-  }
-}
-
-@media (max-width: 500px) {
-
-  .card {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    width: 200px;
-    border-radius: 18px;
-    border-width: 2px;
-  }
-
-  .cardTitle {
-    font-size: 1em;
   }
 }
 
@@ -75,17 +64,6 @@
   }
 
   .cardTitle {
-    font-size: 0.83em;
-  }
-}
-
-@media (max-width: 400px) {
-
-  .card {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    width: 150px;
-    border-radius: 18px;
-    border-width: 2px;
+    font-size: 0.77em;
   }
 }

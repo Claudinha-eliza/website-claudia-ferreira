@@ -32,64 +32,45 @@
   margin-right: 245px;
 }
 
-@media (max-width: 1400px) {
-
-  .card1 {
-    margin-left: 90px;
-  }
-  
-  .card2 {
-    margin-right: 245px;
-  }
-  
-  .card3 {
-    margin-left: 179px;
-  }
-  
-  .card4 {
-    margin-right: 220px;
-  }
-}
-
-@media (max-width: 1300px) {
-
-  .card1 {
-    margin-left: 40px;
-  }
-  
-  .card2 {
-    margin-right: 195px;
-  }
-  
-  .card3 {
-    margin-left: 129px;
-  }
-  
-  .card4 {
-    margin-right: 170px;
-  }
-}
-
 @media (max-width: 1200px) {
 
   .card1 {
-    margin-left: 40px;
+    margin-left: 80px;
   }
   
   .card2 {
-    margin-right: 65px;
+    margin-right: 105px;
   }
   
   .card3 {
-    margin-left: 129px;
+    margin-left: 169px;
   }
   
   .card4 {
-    margin-right: 40px;
+    margin-right: 80px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+
+  .card1 {
+    margin-left: 50px;
+  }
+
+  .card2 {
+    margin-right: 75px;
+  }
+
+  .card3 {
+    margin-left: 115px;
+  }
+
+  .card4 {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 750px) {
 
   .card1 {
     margin-left: 20px;
