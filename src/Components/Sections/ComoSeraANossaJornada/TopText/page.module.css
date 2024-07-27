@@ -125,7 +125,13 @@
 
 @media (max-width: 450px) {
   .title {
-    font-size: 1.17em;
+    font-size: 1.5em;
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.3em;
   }
 }

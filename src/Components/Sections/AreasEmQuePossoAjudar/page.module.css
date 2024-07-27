@@ -70,6 +70,10 @@
 
 @media (max-width: 450px) {
 
+  .section {
+    padding-bottom: 41.67px;
+  }
+
   .decoration9 {
     height: 560px;
   }

@@ -134,6 +134,13 @@
 @media (max-width: 450px) {
 
   .titleText {
-    font-size: 1.17em;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .titleText {
+    font-size: 1.3em;
   }
 }

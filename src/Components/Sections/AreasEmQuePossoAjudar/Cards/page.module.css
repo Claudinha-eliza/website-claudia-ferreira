@@ -92,22 +92,16 @@
 @media (max-width: 450px) {
 
   .cards {
-    gap: 10px;
+    gap: 20px;
   }
 
-  .card1 {
-    margin-left: 10px;
-  }
-
-  .card2 {
-    margin-right: 35px;
-  }
-
+  .card1,
   .card3 {
-    margin-left: 15.147%;
+    margin-left: 25px;
   }
 
+  .card2,
   .card4 {
-    margin-right: 10px;
+    margin-right: 25px;
   }
 }
