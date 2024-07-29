@@ -7,6 +7,7 @@
 
 .authorPhoto {
   min-width: 49%;
+  max-width: 720px;
   object-fit: cover;
   object-position: left;
   user-select: none;
