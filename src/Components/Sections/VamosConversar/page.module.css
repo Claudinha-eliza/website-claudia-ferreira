@@ -1,0 +1,141 @@
+.section {
+  position: relative;
+  display: flex;
+  padding-bottom: 160px;
+  overflow-y: hidden;
+}
+
+.decoration15 {
+  z-index: 1;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration5 {
+  position: absolute;
+  z-index: 1;
+  top:27px;
+  right: 41.458%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration16 {
+  position: absolute;
+  z-index: 1;
+  top:68px;
+  right: 0px;
+  width: 28.055%;
+  object-fit: cover;
+  object-position: left;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration17 {
+  position: absolute;
+  z-index: 1;
+  top:270px;
+  right: 27.777%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration18 {
+  position: absolute;
+  z-index: 1;
+  top: 570px;
+  right: 0;
+  width: 238px;
+  object-fit: cover;
+  object-position: left;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.decoration19 {
+  position: absolute;
+  z-index: 1;
+  top: 385px;
+  left: 0;
+  width: 310px;
+  opacity: 0.3;
+  object-fit: cover;
+  object-position: right top;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+@media (max-width: 900px) {
+
+  .section {
+    padding-bottom: 80px;
+  }
+
+  .decoration5 {
+    right: 0;
+    width: 34.666%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .decoration15 {
+    display: none;
+  }
+
+  .decoration16 {
+    display: none;
+  }
+
+  .decoration17 {
+    display: none;
+  }
+
+  .decoration18 {
+    top: 370px;
+  }
+
+  .decoration19 {
+    top: 185px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .decoration18 {
+    width: 31.733%;
+  }
+
+  .decoration19 {
+    width: 41.333%;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .decoration5 {
+    width: 35%;
+    height: 40px;
+    top: 50px;
+  }
+
+  .decoration18 {
+    top: 330px;
+  }
+
+  .decoration19 {
+    top: 145px;
+  }
+}

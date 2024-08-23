@@ -131,20 +131,25 @@
 
 @media (max-width: 900px) {
 
+  .section {
+    padding-bottom: 80px;
+  }
+
   .decoration12 {
     left: 0;
-    bottom: 30px;
+    bottom: -30px;
     height: 150px;
     width: 180px;
   }
 
   .decoration13 {
+    bottom: -60px;
     height: 300px;
     width: 163px;
   }
 
   .decoration14 {
-    bottom: 60px;
+    bottom: 0px;
     height: 60px;
   }
 }
@@ -175,7 +180,7 @@
   }
 
   .decoration12 {
-    bottom: 25px;
+    bottom: -35px;
     height: 110px;
     width: 80px;
   }
@@ -187,7 +192,7 @@
   }
 
   .decoration14 {
-    bottom: 20px;
+    bottom: -40px;
     height: 84px;
   }
 }
@@ -210,12 +215,12 @@
     left: auto;
     right: auto;
     height: 350px;
-    width: 200px;
+    width: 190px;
     max-width: 100%;
   }
 
   .decoration14 {
-    bottom: 20px;
+    bottom: -40px;
     max-width: 80%;
   }
 }

@@ -10,6 +10,7 @@ export default function Home() {
       <Sections.UmPouquinhoSobreMim />
       <Sections.AreasEmQuePossoAjudar />
       <Sections.ComoSeraANossaJornada />
+      <Sections.VamosConversar />
     </main>
   </>);
 }
