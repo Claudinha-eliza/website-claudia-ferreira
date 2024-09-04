@@ -19,11 +19,23 @@
   padding-right: 15px;
 }
 
+.contactInfoContainer {
+  padding-right: 15px;
+}
+
 .contactInfo {
+  text-decoration: none;
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  padding-right: 15px;
+  border-width: 3px;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contactInfo > i {
@@ -84,5 +96,16 @@
 
   .contactTitle {
     font-size: 1.5em;
+  }
+}
+
+@media (min-width: 901px) {
+
+  .contactInfo:hover {
+    border-color: #2A2F33;
+  }
+
+  .contactInfo:active {
+    border-color: #16348E;
   }
 }
