@@ -9,6 +9,12 @@ body {
   background-color: #000000;
 }
 
+@media (min-width: 1201px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+}
+
 @media (min-width: 1440px) and (max-width: 2000px) {
   body {
     background-image: url(../../public/background2000x2000.png);

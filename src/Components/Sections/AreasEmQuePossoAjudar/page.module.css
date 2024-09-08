@@ -1,4 +1,5 @@
 .section {
+  padding-top: 80px;
   position: relative;
   width: 100%;
   padding-bottom: 71.67px;
@@ -27,7 +28,7 @@
   position: absolute;
   width: 58.9%;
   min-width: 235px;
-  top: -360px;
+  top: -280px;
   left: 0px;
   object-fit: cover;
   object-position: right;
@@ -48,7 +49,7 @@
     object-fit: cover;
     object-position: top right;
     width: 60%;
-    top: -180px;
+    top: -100px;
     height: 965px;
   }
 }
@@ -61,6 +62,10 @@
 }
 
 @media (max-width: 750px) {
+
+  .section {
+    padding-top: 0px;
+  }
 
   .decoration9 {
     top: 0px;
