@@ -13,7 +13,7 @@ export function Navbar() {
 
   return (<>
     <nav className={`${styles.navbar} ${active && styles.navbarActive}`}>
-      <h3><a onClick={() => onClick()} href="#inicio">Home</a></h3>
+      <h3><a onClick={() => onClick()} href="#inicio">Início</a></h3>
       <h3><a onClick={() => onClick()} href="#um-pouquinho-sobre-mim">Um pouquinho sobre mim</a></h3>
       <h3><a onClick={() => onClick()} href="#areas-em-que-posso-ajudar">Áreas em que posso ajudar</a></h3>
       <h3><a onClick={() => onClick()} href="#como-sera-a-nossa-jornada">Como será a nossa jornada</a></h3>
