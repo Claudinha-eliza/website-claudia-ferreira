@@ -17,6 +17,6 @@ export const cardData: { title:string, text:string }[] = [
   },
   {
     title: 'Envolvimento dos pais',
-    text: 'Os pais ou responsáveis desempenham um papel importante no processo psicanalítico com crianças e adolescentes. Eles são frequentemente envolvidos para discutir questões ou dinâmicas familiares e estratégias para apoiar o desenvolvimento emocional dos filhos.',
+    text: 'Os pais ou responsáveis desempenham um papel importante no processo psicanalítico com crianças e adolescentes. Eles são eventualmente envolvidos no tratamento para discutir questões ou dinâmicas familiares e estratégias para apoiar o desenvolvimento emocional dos filhos.',
   },
 ]
