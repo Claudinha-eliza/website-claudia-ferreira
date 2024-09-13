@@ -9,6 +9,11 @@ body {
   background-color: #000000;
 }
 
+noscript > iframe {
+  display: none;
+  visibility: hidden;
+}
+
 @media (min-width: 1201px) {
   html {
     scroll-padding-top: 70px;

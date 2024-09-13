@@ -28,7 +28,7 @@ export default function RootLayout({
       </head>
       <body>
         <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7M25X9J" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7M25X9J" height="0" width="0"></iframe>
         </noscript>
         {children}
       </body>
