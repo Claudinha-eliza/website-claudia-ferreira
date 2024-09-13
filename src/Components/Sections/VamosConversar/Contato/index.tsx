@@ -11,7 +11,7 @@ export function Contato() {
           target='_blank'
         >
           <i className='bx bxl-whatsapp'></i>
-          <span className={styles.contactNumber}>(31) 98818-7830</span>
+          <span className={styles.contactNumber}>WhatsApp</span>
         </a>
       </div>
       <Image

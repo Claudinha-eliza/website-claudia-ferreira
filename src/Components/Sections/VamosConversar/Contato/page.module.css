@@ -26,27 +26,28 @@
 .contactInfo {
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
+  align-items: center;
+  gap: 5px;
   border-width: 3px;
-  border-color: transparent;
+  border-color: #075e549F;
   border-style: solid;
-  border-radius: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #075e541A;
 }
 
 .contactInfo > i {
-  font-size: 24px;
-  color: #16348E;
+  font-size: 36px;
+  color: #128c7e;
 }
 
 .contactNumber {
   margin: 0px;
   font-family: 'Outfit', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   font-weight: 600;
   color: #2A2F33;
@@ -63,7 +64,7 @@
 @media (max-width: 900px) {
   .contact {
     width: 100%;
-    gap: 40px;
+    gap: 70px;
   }
 
   .contactTitle {
@@ -78,7 +79,22 @@
 @media (max-width: 450px) {
 
   .contact {
-    gap: 20px;
+    gap: 60px;
+  }
+
+  .contactNumber {
+    font-size: 22px;
+  }
+
+  .contactInfo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  } 
+
+  .contactInfo > i {
+    font-size: 40px;
   }
 
   .contactTitle {
@@ -94,6 +110,21 @@
 
 @media (max-width: 350px) {
 
+  .contactNumber {
+    font-size: 16px;
+  }
+
+  .contactInfo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
+
+  .contactInfo > i {
+    font-size: 26px;
+  }
+
   .contactTitle {
     font-size: 1.5em;
   }
@@ -102,10 +133,7 @@
 @media (min-width: 901px) {
 
   .contactInfo:hover {
-    border-color: #2A2F33;
-  }
-
-  .contactInfo:active {
-    border-color: #16348E;
+    scale: 1.15;
+    transition-duration: 150ms;
   }
 }

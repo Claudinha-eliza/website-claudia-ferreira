@@ -16,7 +16,7 @@ function MainPicture() {
     <Image
       src="/claudia.png"
       width={720}
-      height={880}
+      height={751}
       alt="foto da Claudia"
       className={styles.authorPhoto}
     />
