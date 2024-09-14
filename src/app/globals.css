@@ -9,7 +9,7 @@ body {
   background-color: #000000;
 }
 
-noscript > iframe {
+body > noscript > iframe {
   display: none;
   visibility: hidden;
 }
