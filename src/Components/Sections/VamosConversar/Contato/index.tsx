@@ -7,7 +7,7 @@ export function Contato() {
       <h1 className={styles.contactTitle}>Vamos conversar?</h1>
       <div className={styles.contactInfoContainer}>
         <a className={styles.contactInfo} 
-          href='https://wa.me/5531988187830?text=Ol%C3%A1%21+Gostaria+de+agendar+um+atendimento'
+          href='https://wa.me/5531988187830'
           target='_blank'
         >
           <i className='bx bxl-whatsapp'></i>
