@@ -14,7 +14,7 @@ export function UmPouquinhoSobreMim() {
 function MainPicture() {
   return (<>
     <Image
-      src="/claudia1.png"
+      src="/claudia.png"
       width={720}
       height={751}
       alt="foto da Claudia"
