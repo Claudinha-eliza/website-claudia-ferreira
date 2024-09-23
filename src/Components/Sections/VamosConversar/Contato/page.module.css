@@ -62,6 +62,11 @@
 }
 
 @media (max-width: 900px) {
+
+  .contactInfoContainer {
+    padding-right: 0px;
+  }
+
   .contact {
     width: 100%;
     gap: 70px;

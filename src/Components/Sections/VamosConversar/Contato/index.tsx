@@ -9,9 +9,10 @@ export function Contato() {
         <a className={styles.contactInfo} 
           href='https://wa.me/5531988187830'
           target='_blank'
+          id='whatsapp-button-footer'
         >
           <i className='bx bxl-whatsapp'></i>
-          <span className={styles.contactNumber}>WhatsApp</span>
+          <span className={styles.contactNumber}>Agendar agora!</span>
         </a>
       </div>
       <Image
