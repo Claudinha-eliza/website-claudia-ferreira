@@ -1,7 +1,7 @@
-import { ButtonClickTracking } from "./ButtonClickStatistic";
-import { WebsiteVisitTracking } from "./WebsiteVisitTracking";
+import { Container } from "./Container";
+import { Global } from "./Global";
 
 export const GoogleTagManager = {
-  WebsiteVisitTracking: WebsiteVisitTracking,
-  ButtonClickTracking: ButtonClickTracking
+  Global: Global,
+  Container: Container
 }

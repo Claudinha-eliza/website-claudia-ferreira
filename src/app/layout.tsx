@@ -21,8 +21,8 @@ export default function RootLayout({
       <body>
         {children}
       </body>
-      <GoogleTagManager.WebsiteVisitTracking awId='AW-16695713159' />
-      <GoogleTagManager.ButtonClickTracking gtmId='GTM-TM92P8FF' />
+      <GoogleTagManager.Global awId='AW-16695713159' />
+      <GoogleTagManager.Container gtmId='GTM-TC4ZQX8J' />
     </html>
   );
 }

@@ -1,7 +1,7 @@
 // app/components/GtmScript.js
 import Script from 'next/script';
 
-export function WebsiteVisitTracking({ awId }: { awId: string }) {
+export function Global({ awId }: { awId: string }) {
   return (
     <>
       <Script
