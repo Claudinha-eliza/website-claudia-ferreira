@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-page-custom-font */
-import { GoogleTagManager  } from '@next/third-parties/google'
+import { GoogleTagManager } from "@/Components/GoogleTagManager";
 import "./globals.css";
 
 export default function RootLayout({
@@ -21,7 +21,8 @@ export default function RootLayout({
       <body>
         {children}
       </body>
-      <GoogleTagManager gtmId='GTM-TM92P8FF' />
+      <GoogleTagManager.WebsiteVisitTracking awId='AW-16695713159' />
+      <GoogleTagManager.ButtonClickTracking gtmId='GTM-TM92P8FF' />
     </html>
   );
 }
