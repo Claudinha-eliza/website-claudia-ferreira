@@ -9,7 +9,7 @@ export const cardData: { title:string, text:string }[] = [
   },
   {
     title: 'Brincadeiras',
-    text: 'Elas merecem um tópico à parte! A psicanálise com crianças e adolescentes muitas vezes utiliza as brincadeiras como forma de comunicação simbólica, pois elas podem revelar muito sobre o psiquismo desses indivíduos.',
+    text: 'Elas merecem um tópico à parte! A psicanálise com crianças e adolescentes utiliza as brincadeiras como forma de comunicação simbólica, pois elas podem revelar muito sobre o psiquismo desses indivíduos.',
   },
   {
     title: 'Análise dos conflitos e fantasias',

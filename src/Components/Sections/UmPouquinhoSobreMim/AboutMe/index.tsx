@@ -13,7 +13,7 @@ export function AboutMe() {
           Olá! Meu nome é Claudia Eliza Ferreira dos Santos, sou graduada em Psicologia pela UFMG (CRP 04/42649), com ênfase em processos clínicos; pós-graduada em Psicanálise com crianças e adolescentes pela PUC Minas e intitulada Especialista em Psicologia Social pelo Conselho Federal de Psicologia.
         </p>
         <p>
-          Com mais de 10 anos de experiência, atendo na minha clínica crianças, adolescentes e também adultos, na modalidade online para todo o Brasil e presencial em Contagem-MG. Além disso, concilio o trabalho de psicóloga clínica/psicanalista em consultório particular com o trabalho de psicóloga nas políticas públicas. Atuei por 8 anos no Programa Mediação de Conflitos e atualmente faço parte do quadro de servidores da Secretaria Municipal de Assistência Social e Direitos Humanos de Belo Horizonte. Essas experiências me possibilitam compreensão ampliada sobre diversos contextos familiares e sociais.
+          Com mais de 10 anos de experiência, atendo crianças, adolescentes e também adultos, na modalidade online para todo o Brasil e presencial em Contagem-MG. Além disso, concilio o trabalho de psicóloga clínica/psicanalista em consultório particular com o trabalho de psicóloga nas políticas públicas. Atuei por 8 anos no Programa Mediação de Conflitos e atualmente faço parte do quadro de servidores da Secretaria Municipal de Assistência Social e Direitos Humanos de Belo Horizonte. Essas experiências me possibilitam compreensão ampliada sobre diversos contextos familiares e sociais.
         </p>
       </div>
     </div>
